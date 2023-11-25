@@ -1,31 +1,33 @@
-# User Login Application
+# User Login System
 
 **Turkish (Türkçe)**
 
 ## Proje Açıklaması
 
-Bu Python script'i, kullanıcı adı ve parola ile basit bir giriş yapma uygulamasıdır.
+Bu Python script'i, kullanıcı giriş işlemlerini simüle eden bir programdır.
 
 ## Kullanım
 
 1. Kodu bilgisayarınıza indirin:
 
     ```bash
-    git clone https://github.com/user/user-login-application.git
-    cd user-login-application
+    git clone https://github.com/user/user-login-system.git
+    cd user-login-system
     ```
 
 2. Script'i çalıştırın:
 
     ```bash
-    python user_login.py
+    python user_login_system.py
     ```
 
-3. Kullanıcı adını ve parolayı girin ve giriş yapın.
+3. Kullanıcı adı ve parolayı girin ve giriş yapın.
 
 ## Dikkat Edilmesi Gerekenler
 
-- Script, tanımlı bir sistem kullanıcı adı ve parolası ile giriş yapma işlemini gerçekleştirir.
+- Script, kullanıcı giriş işlemlerini simüle eder.
+- Kullanıcı adı ve parolayı doğru girmeniz gerekmektedir.
+- Üç başarısız giriş denemesinden sonra, şifrenizi veya kullanıcı adınızı sıfırlama seçeneğiniz bulunmaktadır.
 
 ## Katkıda Bulunma
 
@@ -41,28 +43,30 @@ Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır. Daha fazla bilgi i
 
 ## Project Description
 
-This Python script is a simple login application with a username and password.
+This Python script simulates user login processes.
 
 ## Usage
 
 1. Clone the code to your computer:
 
     ```bash
-    git clone https://github.com/user/user-login-application.git
-    cd user-login-application
+    git clone https://github.com/user/user-login-system.git
+    cd user-login-system
     ```
 
 2. Run the script:
 
     ```bash
-    python user_login.py
+    python user_login_system.py
     ```
 
-3. Enter the username and password to log in.
+3. Enter your username and password to log in.
 
 ## Notes
 
-- The script performs login with a predefined system username and password.
+- The script simulates user login processes.
+- You need to enter the correct username and password.
+- After three failed login attempts, you have the option to reset your password or username.
 
 ## Contributing
 
